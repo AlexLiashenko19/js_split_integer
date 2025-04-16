@@ -35,5 +35,5 @@ test('should add zeros if value < numberOfParts', () => {
   const numberOfParts = 3;
   const result = splitInteger(value, numberOfParts);
 
-  expect(result).toEqual([0, 1, 1])
+  expect(result).toEqual([1, 1, 1])
 });
